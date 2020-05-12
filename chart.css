@@ -21,14 +21,17 @@ svg {
 div.tooltip {	
   position: absolute;			
   padding: 10px;				
-  font: 12px;	
+  font-size: 12px;
   background: lightsteelblue;	
   border: 0px;		
   border-radius: 8px;			
   pointer-events: none;			
 }
-.label{
+.axis-label{
   font-size: 18px;
+}
+.label{
+  font-size: 10px;
 }
 .dot{
   stroke: #000;
